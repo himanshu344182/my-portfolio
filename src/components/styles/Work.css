@@ -341,8 +341,17 @@
 }
 
 @media only screen and (max-width: 600px) {
-  .carousel-arrow {
+  .carousel-arrow, .carousel-dots {
     display: none;
+  }
+  .carousel-track-container {
+    overflow: visible;
+    border: none;
+  }
+  .carousel-track {
+    flex-direction: column;
+    transform: none !important;
+    gap: 60px;
   }
   .carousel-slide {
     padding: 10px 0;
