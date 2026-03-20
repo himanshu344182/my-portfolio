@@ -297,11 +297,15 @@
   }
 
   .carousel-arrow-left {
-    left: 10px;
+    left: 5px;
   }
 
   .carousel-arrow-right {
-    right: 10px;
+    right: 5px;
+  }
+
+  .carousel-slide {
+    padding: 40px 50px;
   }
 }
 
@@ -328,7 +332,7 @@
   }
 
   .carousel-slide {
-    padding: 30px 0;
+    padding: 30px 40px;
   }
 
   .work-image img {
