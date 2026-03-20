@@ -339,3 +339,31 @@
     max-height: 250px;
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .carousel-arrow {
+    display: none;
+  }
+  .carousel-slide {
+    padding: 10px 0;
+  }
+  .work-section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  .carousel-number h3 {
+    font-size: 28px;
+  }
+  .carousel-details h4 {
+    font-size: 18px;
+  }
+  .carousel-tools p {
+    font-size: 13px;
+  }
+  .carousel-category {
+    font-size: 14px;
+  }
+  .work-image img {
+    max-height: 200px;
+  }
+}
